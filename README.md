@@ -1,5 +1,10 @@
 # Orchestrate data flow with AIRFLOW!
-Apache Airflow is an open-source tool to create, schedule, and monitor pipelines. In order words, Airflow is a tool that 
-orchestrates the life of a data pipeline. Airflow utilizes directed acyclic graphs (DAGs) to manage the orchestration of a workflow. 
-DAG consists of tasks and tasks dependencies. A DAG can be triggered at a specific time or based on an external trigger. It is possible 
-to execute several activities with utmost ease with the help of Airflows' convenient user interface. 
+Airflow utilizes directed acyclic graphs (DAGs) to manage the orchestration of a workflow. 
+DAG consists of tasks and tasks dependencies. They are concerned with task execution, the order to run them, and execute retries if a 
+task has timed out. A DAG can be triggered at a specific time or based on an external trigger. Airflow concepts are vast. Therefore, 
+we will touch upon certain areas like
+
+1.	Saving configuration and variables
+2.	Using multiple scripts
+3.	CRON scheduler
+4.	Generating email if an error
