@@ -8,3 +8,7 @@ we will touch upon certain areas like
 2.	Using multiple scripts
 3.	CRON scheduler
 4.	Generating email if an error
+
+## File Structure 
+The file must be stored as follows within the airflow "dags" folder.
+![Airflow Structure](https://user-images.githubusercontent.com/64312327/159173456-610b7445-12dd-42d0-aaad-283b1090ae29.png)
