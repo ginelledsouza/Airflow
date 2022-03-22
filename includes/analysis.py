@@ -1,4 +1,5 @@
 import github.includes.postgresql as psql
+import github.includes.function as f
 
 def record_analysis():
     query = "select count(*) from feedbackdatabase;"
@@ -14,4 +15,5 @@ def extract_database():
     print ("Importing Table feedbackdatabase.....")
     columns = psql.get_columns_names(psql.establish_connection(),"feedbackdatabase")
     data = psql.postgresql_to_dataframe(psql.establish_connection(), "select * from feedbackdatabase", columns)
+    data = data[f.filtered_col]
     print(data)
