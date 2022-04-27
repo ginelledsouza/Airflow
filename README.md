@@ -5,9 +5,14 @@ task has timed out. A DAG can be triggered at a specific time or based on an ext
 we will touch upon certain areas like
 
 1. Storing variables and connections
+   1.1 Variables
+	   1.1.1 Airflow Webserver User Interface
+	   1.1.2 Command Line Interface
+	   1.1.3 Python Code
+   1.2 Connections
 2. Using multiple scripts
 3. DAG scheduler
-4. Generating email if an error
+4. Generating email
 
 ## File Structure 
 The file must be stored as follows within the airflow "dags" folder.<br>
