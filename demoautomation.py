@@ -6,7 +6,7 @@ from github.includes.analysis import record_analysis
 from github.includes.analysis import table_analysis
 from github.includes.analysis import extract_database
 
-default_args = {'owner': 'airflow', 'start_date': datetime(2021, 1, 1),'email': ['dummyemailid@dummyid.com'],'email_on_failure': True}
+default_args = {'owner': 'airflow', 'start_date': datetime(2021, 1, 1),'email': ['dummysource@gmail.com'],'email_on_failure': True}
 
 dag = DAG('demoautomation', schedule_interval='@daily', default_args=default_args, catchup=False)
 
