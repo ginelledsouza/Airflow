@@ -4,15 +4,15 @@ DAG consists of tasks and tasks dependencies. They are concerned with task execu
 task has timed out. A DAG can be triggered at a specific time or based on an external trigger. Airflow concepts are vast. Therefore, 
 we will touch upon certain areas like
 
-1. Storing variables and connections
-   1.1 Variables
-	   1.1.1 Airflow Webserver User Interface
-	   1.1.2 Command Line Interface
-	   1.1.3 Python Code
-   1.2 Connections
-2. Using multiple scripts
-3. DAG scheduler
-4. Generating email
+1. Storing variables and connections<br>
+   1.1 Variables<br>
+	   1.1.1 Airflow Webserver User Interface<br>
+	   1.1.2 Command Line Interface<br>
+	   1.1.3 Python Code<br>
+   1.2 Connections<br>
+2. Using multiple scripts<br>
+3. DAG scheduler<br>
+4. Generating email<br>
 
 ## File Structure 
 The file must be stored as follows within the airflow "dags" folder.<br>
